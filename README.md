@@ -6,7 +6,7 @@ Welcome to my **CodeHawks First Flight** repository! This repository contains my
 Each challenge has its own dedicated folder, containing:
 - ✅ **Smart contract source code** (from the challenge)
 - ✅ **Test cases and exploit scripts** used during the process
-- ✅ A detailed **README** explaining the the contract
+- ✅ A detailed **README** explaining the contract
 - ✅ A **Vulnerabilities.md** listing and explaining the vulnerabilities I've discovered
 
 ## 🔥 Why This Repository?
