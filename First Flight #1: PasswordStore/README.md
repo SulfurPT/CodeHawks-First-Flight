@@ -1,49 +1,33 @@
-# 🚀 CodeHawks First Flight 🦅
+# First Flight #1: PasswordStore
 
-<<<<<<< HEAD
-Welcome to my **CodeHawks First Flight** repository! This repository contains my solutions and detailed analyses of the **CodeHawks First Flight** challenges from Cyfrin. The First Flight challenges are designed to help beginners dive into the world of **smart contract auditing**, providing hands-on experience with real-world security flaws and vulnerabilities.
-=======
-- [First Flight #1: PasswordStore](#first-flight-1-passwordstore)
-  - [Contest Details](#contest-details)
+- [Contest Details](#contest-details)
   - [Stats](#stats)
-  - [About](#about)
-  - [Roles](#roles)
-  - [Getting Started](#getting-started)
+- [Getting Started](#getting-started)
   - [Requirements](#requirements)
   - [Quickstart](#quickstart)
     - [Optional Gitpod](#optional-gitpod)
-  - [Usage](#usage)
-    - [Deploy (local)](#deploy-local)
+- [Usage](#usage)
+  - [Deploy (local)](#deploy-local)
   - [Testing](#testing)
     - [Test Coverage](#test-coverage)
-  - [Scope](#scope)
   - [Compatibilities](#compatibilities)
-  - [Known Issues](#known-issues)
-  - [Vulnerabilites](#vulnerabilites)
->>>>>>> 42c2c88 (Add the FirstFly PasswordStore Audit)
+- [Roles](#roles)
+- [Known Issues](#known-issues)
 
-## 🎯 What’s Inside?
-Each challenge has its own dedicated folder, containing:
-- ✅ **Smart contract source code** (from the challenge)
-- ✅ **Test cases and exploit scripts** used during the process
-- ✅ A detailed **README** explaining the contract
-- ✅ A **Vulnerabilities.md** listing and explaining the vulnerabilities I've discovered
+[//]: # (contest-details-open)
 
-## 🔥 Why This Repository?
-As part of my journey to become an expert in **smart contract auditing**, this repository is a record of my progress through the **CodeHawks First Flight** challenges. It serves as both a learning tool for me and a potential resource for anyone interested in improving their skills in blockchain security.
+## Contest Details
 
-## 💡 What Will We Learn Here?
-- In-depth analysis of common smart contract vulnerabilities
-- Practical steps for auditing and exploitation
-- How to identify weaknesses in smart contracts and develop secure code
+- 2x XP/Finding!
+  
+- High - 200xp
+- Medium - 40xp
+- Low - 4xp
 
-## ⚡ Want to Learn More?
-Check out the individual challenges to see how I approached each one, the vulnerabilities I found, and the insights I gained.
+Starts: 00:00 UTC Wednesday, Oct 18 2023
 
-🔗 *Stay curious, break things, and always keep learning!*
+Ends: 00:00 UTC Wednesday, Oct 25 2023
 
-<<<<<<< HEAD
-=======
 ## Stats
 
 - nSLOC: 20
@@ -150,7 +134,6 @@ forge coverage --report debug
 No known issues reported.
 
 [//]: # (known-issues-close)
-
 
 ## Vulnerabilites
 
