@@ -140,7 +140,7 @@ None
 [M-3 Unsafe cast of PuppyRaffle::fee loses fees](Vulnerabilities.md#m-3-unsafe-cast-of-puppyrafflefee-loses-fees) \
 [M-4 Smart Contract wallet raffle winners without a receive or a fallback will block the start of a new contest](Vulnerabilities.md#m-4-smart-contract-wallet-raffle-winners-without-a-receive-or-a-fallback-will-block-the-start-of-a-new-contest)
 
-[L-1 PuppyRaffle::getActivePlayerIndex returns 0 for non-existent players and players at index 0 causing players to incorrectly think they have not entered the raffle](Vulnerabilities.md#l-1-puppyrafflegetactiveplayerindex-returns-0-for-non-existent-players-and-players-at-index-0-causing-players-to-incorrectly-think-they-have-not-entered-the-raffle) \
+[L-1 PuppyRaffle::getActivePlayerIndex returns 0 for non-existent players and players at index 0 causing players to incorrectly think they have not entered the raffle](Vulnerabilities.md#l-1-puppyrafflegetactiveplayerindex-returns-0-for-non-existent-players-and-players-at-index-0-causing-players-to-incorrectly-think-they-have-not-entered-the-raffle)
 
 [I-1 Solidity pragma should be specific, not wide](Vulnerabilities.md#i-1-passwordstore-getpassword)
 [I-2 Using an Outdated Version of Solidity is Not Recommended](Vulnerabilities.md#i-2) \
