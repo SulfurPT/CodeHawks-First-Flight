@@ -133,12 +133,12 @@ None
 
 [H-1 Reentrancy attack in PuppyRaffle::refund allows entrant to drain raffle balance](Vulnerabilities.md#h-1-reentrancy-attack-in-puppyrafflerefund-allows-entrant-to-drain-raffle-balance) \
 [H-2 Weak randomness in PuppyRaffle::selectWinner allows anyone to choose winner](Vulnerabilities.md#h-2-weak-randomness-in-puppyraffleselectwinner-allows-anyone-to-choose-winner) \
-[H-3 Integer overflow of PuppyRaffle::totalFees loses fees](Vulnerabilities.md#h-3-integer-overflow-of-puppyraffletotalfees-loses-fees) \
+[H-3 Integer overflow of PuppyRaffle::totalFees loses fees](Vulnerabilities.md#h-3-integer-overflow-of-puppyraffletotalfees-loses-fees)
 
 [M-1 Denial of Service on PuppyRaffle::enterRaffle, as the looping through array to check for duplicates will increment gas costs for future entrants](Vulnerabilities.md#m-1-denial-of-service-on-puppyraffleenterraffle-as-the-looping-through-array-to-check-for-duplicates-will-increment-gas-costs-for-future-entrants) \
 [M-2 Balance check on PuppyRaffle::withdrawFees enables griefers to selfdestruct a contract to send ETH to the raffle, blocking withdrawals](Vulnerabilities.md#m-2-balance-check-on-puppyrafflewithdrawfees-enables-griefers-to-selfdestruct-a-contract-to-send-eth-to-the-raffle-blocking-withdrawals) \
 [M-3 Unsafe cast of PuppyRaffle::fee loses fees](Vulnerabilities.md#m-3-unsafe-cast-of-puppyrafflefee-loses-fees) \
-[M-4 Smart Contract wallet raffle winners without a receive or a fallback will block the start of a new contest](Vulnerabilities.md#m-4-smart-contract-wallet-raffle-winners-without-a-receive-or-a-fallback-will-block-the-start-of-a-new-contest) \
+[M-4 Smart Contract wallet raffle winners without a receive or a fallback will block the start of a new contest](Vulnerabilities.md#m-4-smart-contract-wallet-raffle-winners-without-a-receive-or-a-fallback-will-block-the-start-of-a-new-contest)
 
 [L-1 PuppyRaffle::getActivePlayerIndex returns 0 for non-existent players and players at index 0 causing players to incorrectly think they have not entered the raffle](Vulnerabilities.md#l-1-puppyrafflegetactiveplayerindex-returns-0-for-non-existent-players-and-players-at-index-0-causing-players-to-incorrectly-think-they-have-not-entered-the-raffle) \
 
@@ -148,7 +148,7 @@ None
 [I-4 PuppyRaffle::selectWinner does not follow CEI, which is not a best practice](Vulnerabilities.md#i-4-puppyraffleselectWinner-does-not-follow-cei-which-is-not-a-best-practice) \
 [I-5 Use of "magic" numbers is discouraged](Vulnerabilities.md#i-5-use-of-magic-numbers-is-discouraged) \
 [I-6 Test Coverage](Vulnerabilities.md#i-6-test-coverage) \
-[I-7 State Changes are Missing Events](Vulnerabilities.md#i-7-state-changes-are-missing-events) \
+[I-7 State Changes are Missing Events](Vulnerabilities.md#i-7-state-changes-are-missing-events)
 
 [G-1 Unchanged state variables should be declared constant or immutable](Vulnerabilities.md#g-1-unchanged-state-variables-should-be-declared-constant-or-immutable) \
-[G-2 Storage Variables in a Loop Should be Cached](Vulnerabilities.md#g-2-storage-variables-in-a-loop-should-be-cached) \
+[G-2 Storage Variables in a Loop Should be Cached](Vulnerabilities.md#g-2-storage-variables-in-a-loop-should-be-cached)
