@@ -570,7 +570,7 @@ Assigning values to address state variables without checking for `address(0)`.
           feeAddress = newFeeAddress;
   ```
 
-### [I-4] does not follow CEI, which is not a best practice
+### [I-4] `PuppyRaffle::selectWinner` does not follow CEI, which is not a best practice
 
 It's best to keep code clean and follow CEI (Checks, Effects, Interactions).
 

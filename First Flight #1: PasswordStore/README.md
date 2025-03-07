@@ -1,18 +1,22 @@
 # First Flight #1: PasswordStore
 
-- [Contest Details](#contest-details)
+- [First Flight #1: PasswordStore](#first-flight-1-passwordstore)
+  - [Contest Details](#contest-details)
   - [Stats](#stats)
-- [Getting Started](#getting-started)
+  - [About](#about)
+  - [Roles](#roles)
+  - [Getting Started](#getting-started)
   - [Requirements](#requirements)
   - [Quickstart](#quickstart)
     - [Optional Gitpod](#optional-gitpod)
-- [Usage](#usage)
-  - [Deploy (local)](#deploy-local)
+  - [Usage](#usage)
+    - [Deploy (local)](#deploy-local)
   - [Testing](#testing)
     - [Test Coverage](#test-coverage)
+  - [Scope](#scope)
   - [Compatibilities](#compatibilities)
-- [Roles](#roles)
-- [Known Issues](#known-issues)
+  - [Known Issues](#known-issues)
+  - [Vulnerabilites](#vulnerabilites)
 
 [//]: # (contest-details-open)
 
@@ -137,6 +141,6 @@ No known issues reported.
 
 ## Vulnerabilites
 
-[H-1 Variable password is visible to anyone on-chain](Vulnerabilities.md#h-1-variable-password-is-visible-to-anyone-on-chain) \
-[H-2 `PasswordStore::setPassword` has no access controls, meaning a non-owner could change the password](Vulnerabilities.md#h-2-passwordstore-setpassword-has-no-access-controls-meaning-a-non-owner-could-change-the-password) \
-[I-1 The `PasswordStore::getPassword` natspec indicates a parameter that doesn't exist, causing the natspec to be incorrect.](Vulnerabilities.md#i-1-passwordstore-getpassword)
+[H-1 Variable password is visible to anyone on-chain](Vulnerabilities.md#h-1-variable-password-is-visable-to-anyone-on-chain) \
+[H-2 `PasswordStore::setPassword` has no access controls, meaning a non-owner could change the password](Vulnerabilities.md#h-2-passwordstoresetpassword-has-no-access-controls-meaning-a-non-owner-could-change-the-password) \
+[I-1 The `PasswordStore::getPassword` natspec indicates a parameter that doesn't exist, causing the natspec to be incorrect.](Vulnerabilities.md#i-1-the-passwordstoregetpassword-natspec-indicates-a-parameter-that-doesnt-exist-causing-the-natspec-to-be-incorrect)
