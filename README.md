@@ -2,6 +2,10 @@
 
 Welcome to my **CodeHawks First Flight** repository! This repository contains my solutions and detailed analyses of the **CodeHawks First Flight** challenges from Cyfrin. The First Flight challenges are designed to help beginners dive into the world of **smart contract auditing**, providing hands-on experience with real-world security flaws and vulnerabilities.
 
+## My Stats
+
+[![](stats.png)](https://profiles.cyfrin.io/u/sulfurpt)
+
 ## 🎯 What’s Inside?
 Each challenge has its own dedicated folder, containing:
 - ✅ **Smart contract source code** (from the challenge)
