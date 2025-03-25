@@ -1,0 +1,5 @@
+{
+    "security.olympix.project.analyzeWholeProject": true,
+    "slither.solcPath": "",
+    "slither.hiddenDetectors": []
+}
