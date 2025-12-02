@@ -1,0 +1,54 @@
+chain building on Ethereum 
+
+Have an array of the teams 
+
+map each team to a fixed slot
+
+Users have to send in asset to the contract (deposit + participation fee).
+    users should not be able to deposit once the event starts.
+
+A participation fee is charge for every user that choose to join in the event.
+    - participation fee will be charge on every deposit.
+
+Users should only join events only after they have made deposit.
+
+Relase funds to successful users at the end of the event 
+
+Have a minimum amount to join the event with. 
+
+users can be able to cancell before the event starts 
+
+we need to know the number of participants and total value in the vault
+
+    Uers Deposit ==> 
+        * funds are sent to the contract. 
+        * fees are sent to the fee address. 
+        * user deposit is updated. 
+    
+    User JoinEvent ==>
+        * user is to pick a valid team.
+        * get shears for the asset deposited 
+        * users should only join once.
+        * map the user to the country they picked 
+
+    User cancellParticipation ==>
+        * user is able to get back their funds 
+        * users should not be able to join event
+        * users will receive funds with deducted fees.
+
+    User redeem
+        * only winners should get winning funds 
+        * 
+
+    Using Oasis tech
+        * Users address and amount will be kept private 
+
+
+To be worked on 
+-- Let the assets be sent to a aave strategy to earn yeilds for the pperiod when the period when the contract will be running.
+-- Implement oasis tech on this project to the users address private.  
+
+
+Build thought problem 
+if users win more than the lossers the value of assets might be small to shear among all winning useres. 
+if all win depending on the number of users what happen to the funds. 
