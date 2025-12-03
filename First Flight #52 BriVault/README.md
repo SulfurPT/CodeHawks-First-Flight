@@ -75,3 +75,12 @@ Forge test
 ## Known Issues
 
 No known Issues
+
+## Vulnerabilities
+
+[H-1 Deposit inconsistency in BriVault::deposit allows depositor to receive shares for self while staking for another](https://codehawks.cyfrin.io/c/2025-11-brivault/s/171) \
+[H-2 BriVault::joinEvent allows duplicate joins inflating participant counters](https://codehawks.cyfrin.io/c/2025-11-brivault/s/173) 
+
+[M-1 BriVault::setWinner can run out of gas for large number of participants (Gas DoS)](https://codehawks.cyfrin.io/c/2025-11-brivault/s/214) 
+
+[L-1 BriVault::withdraw can revert due to division by zero when total participant shares are zero](https://codehawks.cyfrin.io/c/2025-11-brivault/s/212) 
