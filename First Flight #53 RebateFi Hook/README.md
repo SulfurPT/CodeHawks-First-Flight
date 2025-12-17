@@ -114,3 +114,10 @@ Known Issues:
 
 - Owner has unrestricted access to modify fees and withdraw tokens
 
+[//]: # (Vulnerabilities)
+
+[H-1 Logical Bug in Pool Validation](https://codehawks.cyfrin.io/c/2025-11-rebatefi-hook/s/31)
+
+[L-1 Incorrect Event Parameter Order](https://codehawks.cyfrin.io/c/2025-11-rebatefi-hook/s/28) 
+
+
